@@ -1,0 +1,81 @@
+NTR1 12/02/02 11:12:38 MNAC PTCP qa2-2nip021:9801<-172.20.30.20:53669: rx incoming data
+NTR1 12/02/02 11:12:38 <DB> Posting recv 0x839b8f4
+NTR1 12/02/02 11:12:38 <I> [01] Data rx from MP[0x83a9b68,01:000:01]  :len=0019,0x839eb94
+NTR1 12/02/02 11:12:38 <I> [01]  61 40 00 01 00 7e 01 00 xx xx xx xx xx xx xx        a@...~..xxxxxxx
+NTR1 12/02/02 11:12:38 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:38 <DB> GET_DNIS_ROUTE: matched dnis 00010018, len 8, proto 2 to route 4 - *, flags 
+NTR1 12/02/02 11:12:38 <I> [01] Data rx from MP[0x83a9b68,01:000:01]  :len=0019,0x839eb94
+NTR1 12/02/02 11:12:38 <I> [01]  61 40 00 01 00 7e 7e 7e xx xx xx xx xx xx xx        a@...~~~xxxxxxx
+NTR1 12/02/02 11:12:38 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:38 <DB> GET_DNIS_ROUTE: matched dnis 00010018, len 8, proto 2 to route 4 - *, flags 
+NTR1 12/02/02 11:12:38 <I> [01] SETUP HSCB CALL: hssaddr=98, proto=2, attempt=1
+NTR1 12/02/02 11:12:38 <I> [01] Attempting call to host, called address is: qavnac:7701
+NTR1 12/02/02 11:12:38 <I> [01] HSCB CALL DEBUG:  ANI IX=-1  DNIS IX=4
+NTR1 12/02/02 11:12:38 <I> [01]     CD Addr:      qavnac:7701    CG Addr:                     HostPort: bb0 cid: 35
+NTR1 12/02/02 11:12:38 <I> [01]     NAC:000   PORT:01  SADDR:98  PROTO:02  BAUD:300
+NTR1 12/02/02 11:12:38 <I> [01]     Host call CUD::len=0000,0x83b1c40
+NTR1 12/02/02 11:12:38 <I> [01]     Host call FAX::len=0000,0x83b1cc4
+NTR1 12/02/02 11:12:38 <I> [01]     session DNIS::len=0004,0x85b1d21
+NTR1 12/02/02 11:12:38 <I> [01]  00 01 00 18                       ....
+NTR1 12/02/02 11:12:38 <I> [01]     session ANI::len=0000,0x85b1cb6
+NTR1 12/02/02 11:12:38 HOST qavnac:7701: connected to remote server
+NTR1 12/02/02 11:12:38 <I> [01] HSCB Call Accepted
+NTR1 12/02/02 11:12:38 <I> [01]     CD Addr:      qavnac:7701    CG Addr:                     HostPort: bb0
+NTR1 12/02/02 11:12:38 <I> [01]     NAC:000   PORT:01  SADDR:98  PROTO:02  BAUD:300
+NTR1 12/02/02 11:12:38 <DB> Sending Host CFM
+NTR1 12/02/02 11:12:38 <I> [01] Data tx to MP [0x83a9b68,01:000:01]:len=0020,0x839eb94
+NTR1 12/02/02 11:12:38 <I> [01]  60 01 00 40 00 7e 05 27 xx xx xx xx xx xx     `..@.~.'xxxxxx
+NTR1 12/02/02 11:12:38 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx     xxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:38 <DB> Posting initial host recv 0x839f0a4
+NTR1 12/02/02 11:12:38 <DB> Posting initial host recv 0x839f32c
+NTR1 12/02/02 11:12:40 HOST qavnac:7701: rx incoming data
+NTR1 12/02/02 11:12:40 <I> [01] Data rx from Host [0x83b15a8:01:bb0]:len=0001,0x839f0a4
+NTR1 12/02/02 11:12:40 <I> [01]  05                                .
+NTR1 12/02/02 11:12:40 <I> [01] Data tx to MP [0x83a9b68,01:000:01]:len=0006,0x839eb94
+NTR1 12/02/02 11:12:40 <I> [01]  60 01 00 40 00 05 00 00 xx xx     `..@....xx
+NTR1 12/02/02 11:12:40 <DB> Posting host recv 0x839f0a4
+NTR1 12/02/02 11:12:40 MNAC PTCP qa2-2nip021:9801<-172.20.30.20:53669: rx incoming data
+NTR1 12/02/02 11:12:40 <DB> Posting recv 0x839eb94
+NTR1 12/02/02 11:12:40 <I> [01] Data rx from MP[0x83a9b68,01:000:01]  :len=0058,0x839b8f4
+NTR1 12/02/02 11:12:40 <I> [01]  60 40 00 01 00 02 54 45 xx xx xx xx xx xx xx        `@....TExxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  03 0b
+NTR1 12/02/02 11:12:40 <DB> Attemping to send CFM
+NTR1 12/02/02 11:12:40 <W> [01] CFM not sent: invalid request
+NTR1 12/02/02 11:12:40 <I> [01] Data tx to Host [0x83b15a8:01:bb0]  :len=0053,0x839b8f4
+NTR1 12/02/02 11:12:40 <I> [01]  02 54 45 53 54 44 41 54 xx xx xx xx xx xx xx        .TESTDATxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 HOST qavnac:7701: rx incoming data
+NTR1 12/02/02 11:12:40 <I> [01] Data rx from Host [0x83b15a8:01:bb0]:len=0057,0x839f0a4
+NTR1 12/02/02 11:12:40 <I> [01]  02 54 45 53 54 52 45 53 xx xx xx xx xx xx xx        .TESTRESxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx        xxxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  18
+NTR1 12/02/02 11:12:40 <I> [01] Data tx to MP [0x83a9b68,01:000:01]:len=0062,0x839b8f4
+NTR1 12/02/02 11:12:40 <I> [01]  60 01 00 40 00 02 54 45 xx xx xx xx xx xx     `..@..TExxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx     xxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx     xxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx     xxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <I> [01]  xx xx xx xx xx xx xx xx xx xx xx xx xx xx     xxxxxxxxxxxxxx
+NTR1 12/02/02 11:12:40 <DB> Posting host recv 0x839f0a4
+NTR1 12/02/02 11:12:40 MNAC PTCP qa2-2nip021:9801<-172.20.30.20:53669: rx incoming data
+NTR1 12/02/02 11:12:40 <DB> Posting recv 0x839b8f4
+NTR1 12/02/02 11:12:40 <I> [01] Data rx from MP[0x83a9b68,01:000:01]  :len=0006,0x839eb94
+NTR1 12/02/02 11:12:40 <I> [01]  60 40 00 01 00 06 00 00           `@......
+NTR1 12/02/02 11:12:40 <I> [01] Data tx to Host [0x83b15a8:01:bb0]  :len=0001,0x839eb94
+NTR1 12/02/02 11:12:40 <I> [01]  06                                .
+NTR1 12/02/02 11:12:40 MNAC PTCP qa2-2nip021:9801<-172.20.30.20:53669: rx incoming data
+NTR1 12/02/02 11:12:40 <DB> Posting recv 0x839eb94
+NTR1 12/02/02 11:12:40 <I> [01] Data rx from MP[0x83a9b68,01:000:01]  :len=0007,0x839b8f4
+NTR1 12/02/02 11:12:40 <I> [01]  60 40 00 01 00 7e 02 00           `@...~..
+NTR1 12/02/02 11:12:40 <DB> HS_HANDLE_DISCONNECT : processing disconnect message
+NTR1 12/02/02 11:12:40 <DB> CLR_HSCB: Hanging up hscb 83b15a8 
+NTR1 12/02/02 11:12:40 <DB> HS_ERR_RECV: hscb_ptr:0x83b15a8, xbuf:0x839f0a4
+NTR1 12/02/02 11:12:40 <DB> HS_ERR_RECV: hscb_ptr:0x83b15a8, xbuf:0x839f32c
+NTR1 12/02/02 11:12:40 <DB> HS_HUP_NOTIF : Hung up host connection qavnac:7701
+NTR1 12/02/02 11:12:40 <DB> CLEANUP_HSCB : Clearing cid 35
